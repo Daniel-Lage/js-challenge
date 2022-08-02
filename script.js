@@ -8,6 +8,9 @@ function create_canvas() {
   const canvas = document.getElementById("canvas");
   const height = parseInt(document.getElementById("height").value);
   const width = parseInt(document.getElementById("width").value);
+  canvas.style.height = String(height * 10) + "px";
+  canvas.style.width = String(width * 10) + "px";
+  canvas.style.border = "1px solid black";
   let html = "";
   for (x = 0; x < height; x++) {
     html += '<div class ="row">';
