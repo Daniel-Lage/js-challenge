@@ -1,0 +1,9 @@
+.pixel {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(255, 0, 0);
+}
+
+.row {
+  display: flex;
+}
